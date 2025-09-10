@@ -79,7 +79,7 @@ plt.plot(x, y9, label='140', color='magenta', linestyle='-', marker='o', markers
 plt.plot(x, y10, label='150', color='yellow', linestyle='-', marker='o', markersize=4)
 plt.plot(x, y11, label='157', color='grey', linestyle='-', marker='o', markersize=4)
 plt.plot(x, y12, label='168', color='olive', linestyle='-', marker  ='o', markersize=4)
-plt.plot(x, y13, label='117', color='teal', linestyle='-', marker='o', markersize=4)
+plt.plot(x, y13, label='170', color='teal', linestyle='-', marker='o', markersize=4)
 plt.plot(x, y14, label='180', color='navy', linestyle='-', marker='o', markersize=4)
 plt.plot(x, y15, label='240', color='lime', linestyle='-', marker='o', markersize=4)
 plt.plot(x, y16, label='255', color='coral', linestyle='-', marker='o', markersize=4)
