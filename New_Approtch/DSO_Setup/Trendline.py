@@ -52,7 +52,7 @@ for file in csv_files:
 
 # --- Plot the summarized results ---
 plt.figure(figsize=(10, 6))
-plt.plot(filenames, avg_pos_list, 'r-o', label='Average +ve Peak (V)')
+plt.plot(filenames, avg_pos_list, color='red', linestyle='-', linewidth=1.5, label='Average +ve Peak (V)')
 plt.plot(filenames, avg_neg_list, 'g-o', label='Average -ve Peak (V)')
 plt.plot(filenames, avg_list, 'b--o', label='Overall Average (V)')
 

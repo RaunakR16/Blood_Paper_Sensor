@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.signal import find_peaks
 
 # CSV file
-data1 = pd.read_csv("New_Approtch\DSO_Setup\Data\Data_06.11.2025/20gm.CSV", encoding='latin1')
+data1 = pd.read_csv("New_Approtch\DSO_Setup\Data\Data_06.11.2025_REPET/20gm.CSV", encoding='latin1')
 
 y1 = data1['Volt'].values
 
@@ -44,9 +44,9 @@ plt.plot(pos_peaks, pos_values, 'ro')
 plt.plot(neg_peaks, neg_values, 'go')
 
 # Plot average lines
-plt.axhline(y=avg_pos, color='red', linestyle='--', linewidth=1.5, label=f'Avg +ve peak = {avg_pos:.3f} V')
-plt.axhline(y=avg_neg, color='green', linestyle='--', linewidth=1.5, label=f'Avg -ve peak = {avg_neg:.3f} V')
-plt.axhline(y=avg, color='purple', linestyle='--', linewidth=1.5, label=f'Avg = {avg:.3f} V')
+plt.axhline(y=avg_pos, color='red', linestyle='--', linewidth=1.5, label=f'Avg +ve peak = {avg_pos:.4f} V')
+plt.axhline(y=avg_neg, color='green', linestyle='--', linewidth=1.5, label=f'Avg -ve peak = {avg_neg:.4f} V')
+plt.axhline(y=avg, color='purple', linestyle='--', linewidth=1.5, label=f'Avg = {avg:.4f} V')
 
 plt.xlabel('Time (ms)')
 plt.ylabel('Voltage (volt)')
