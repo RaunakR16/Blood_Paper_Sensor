@@ -90,7 +90,7 @@ plt.plot(file_labels, trend_pos, color='orange', linestyle='--', linewidth=2, la
 plt.plot(file_labels, trend_neg, color='black', linestyle='--', linewidth=2, label=f'Trend Line +ve Peaks eq:{a[0]:.4f}x + {a[1]:.4f}')
 
 plt.title('NaCl Analysis')
-plt.xlabel('Data File Name')
+plt.xlabel('NaCl quantity (gm) in 50ml water')
 plt.ylabel('Voltage (V)')
 plt.xticks(rotation=45, ha='right')
 plt.legend()
