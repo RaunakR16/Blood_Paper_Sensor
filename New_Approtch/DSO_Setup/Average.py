@@ -9,6 +9,7 @@ data1 = pd.read_csv("New_Approtch\DSO_Setup\Data\Data_06.11.2025_REPET/20gm.CSV"
 y1 = data1['Volt'].values
 
 max_amp = np.max(np.abs(y1))
+
 std_amp = np.std(y1)
 
 # Auto-adjust prominence and distance based on data
