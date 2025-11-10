@@ -63,9 +63,9 @@ for f in data_files:
 
 # Plot results
 plt.figure(figsize=(10, 6))
-plt.plot(file_labels, avg_pos_list, color='red', marker='o', label='Avg +ve Peak Voltage')
-plt.plot(file_labels, avg_neg_list, color='green', marker='o', label='Avg -ve Peak Voltage')
-plt.plot(file_labels, avg_combined_list, color='blue', marker='o', label='Combined Avg Voltage')
+plt.plot(file_labels, avg_pos_list, color='red', label='Avg +ve Peak Voltage')
+plt.plot(file_labels, avg_neg_list, color='green', label='Avg -ve Peak Voltage')
+plt.plot(file_labels, avg_combined_list, color='blue', label='Combined Avg Voltage')
 
 plt.title('Average Peak Voltages Across Multiple Data Files')
 plt.xlabel('Data File Name')
